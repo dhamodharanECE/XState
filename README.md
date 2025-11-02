@@ -143,7 +143,6 @@ You’ll see:
 1. Deployment Link:
    ```base
    https://x-state-chi.vercel.app/
-
 🧑‍💻 Developer
 
 Dhamodharan S
