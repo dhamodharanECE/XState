@@ -18,10 +18,14 @@ The application ensures data dependency, dynamic rendering, and good accessibili
 ✅ Responsive and user-friendly UI
 
 🔗 API Endpoints
+
 Data Type	Endpoint
 Get All Countries	https://crio-location-selector.onrender.com/countries
+
 Get States of a Country	https://crio-location-selector.onrender.com/country={countryName}/states
+
 Get Cities of a State	https://crio-location-selector.onrender.com/country={countryName}/state={stateName}/cities
+
 ⚙️ Functional Flow
 
 Initial Render:
