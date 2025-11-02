@@ -9,12 +9,17 @@ The application ensures data dependency, dynamic rendering, and good accessibili
 🌍 Features
 
 ✅ Fetch dynamic data for countries, states, and cities using REST APIs
+
 ✅ Cascading dropdowns — each dependent on the previous selection
+
 ✅ Displays final selection as:
 
 “You selected <City>, <State>, <Country>”
+
 ✅ Proper error handling and console logging for failed API requests
+
 ✅ Uses both key and value attributes for <option> tags (Cypress-friendly)
+
 ✅ Responsive and user-friendly UI
 
 🔗 API Endpoints
@@ -71,23 +76,23 @@ Once a city is selected, display the text:
 💡 Good Practices Followed
 
 ✔️ alt attributes for accessibility (if images used)
+
 ✔️ Proper error handling with console.error("Error fetching data:", error)
+
 ✔️ Specified both key and value attributes in <option> elements
+
 ✔️ Controlled React form elements
+
 ✔️ Clean and modular component structure
 
 📂 Project Structure
-location-selector/
-├── src/
-│   ├── components/
-│   │   └── LocationSelector.jsx
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── public/
-│   └── index.html
-├── package.json
-└── README.md
+
+Project Structure:
+    => src
+    => App.jsx
+    => App.css
+    => main.js
+    =>main.css
 
 ⚡ Installation and Setup
 
